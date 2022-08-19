@@ -1,0 +1,79 @@
+
+h1{
+    color: rgb(249, 255, 243);
+    text-align: center;
+}
+
+ header{
+    background-color: #211A4C;
+    color: rgb(215, 161, 90);
+    border-radius: 10px;
+    border: 5px #6894CF outset;
+    /* tipo de bordes
+    dotted
+    dashed
+    solid
+    double
+    3 dimensionales
+     groove
+     ridge
+     inset
+     outsed
+    none
+    hidden
+    */
+ }
+
+/* se pone punto cuando del otro lado es class*/
+.linkss{
+    color: aqua;
+}
+
+ body{
+    background-color: rgb(223, 191, 253);
+ }
+
+.maa{
+    /*  top right bottom left */
+    background-color: blue;
+    padding: 100px 50px 100px 50px;
+    border: #6894CF solid;
+}
+
+ footer{
+    /* background-color: #F0E68C; */
+    background-image: url(hoja.png);
+    background-size: cover;
+    border-style: solid;
+    /* border-color:rgba(0, 0, 0, 0.4); */
+    border-color: black;
+    border-radius: 5px;
+    border-top-width: 50px;
+ 
+}
+
+/* un articulo se le puede poner imagen de fondo 
+#lmao {
+    background-image: url(hoja.png);
+    height: 300px;
+    background-size: auto;
+ } */
+
+/* todo lo que contenga class texto */
+p.texto{
+    text-align: center;
+    color: rgb(255, 8, 0);
+}
+
+p.especial{
+    color: blue;
+}
+
+/* que todo lo que esta dentro de div se ponga de color x */
+div p{
+    color: rgb(7, 82, 57);
+}
+
+div h3,h4,h5,h6{
+    color: brown;
+}
